@@ -1,0 +1,20 @@
+"""
+params sync: 
+:param redirected_url: redirected url or list of redirected urls for the case of broken links that are redirected.
+:param url_dict: dictionary that includes tag and link information; keys are tags, values are url links.
+:param url_keys: keys of the dictionary for reaching dictionary values.
+:params alternatives (_alt): are the alternative links for the tags, used only if they exists.
+### : change the lines according to your configuration when that appears.
+:return: single request response per iteration.
+"""
+
+"""
+params async: 
+:param i: index of the current dictionary key.
+:param redirected_url: redirected url or list of redirected urls for the case of broken links that are redirected.
+:param url_dict: dictionary that includes tag and link information; keys are tags, values are url links.
+:param url_keys: keys of the dictionary for reaching dictionary values.
+:params alternatives (_alt): are the alternative links for the tags, used only if they exists.
+### : change the lines according to your configuration when that appears.
+:return: asynchronous gathered list of tasks which creates multiple request responses.
+"""
