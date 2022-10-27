@@ -22,15 +22,7 @@ url_redirected= 'the url that is redirected when the case of link is broken or e
 url_redirected_alt= 'the alternative url that is redirected when the case of alternative link is broken or expired' ###
 args = [dict_link,keys_link,url_redirected]
 args_alternative = [dict_alt,keys_alt,url_redirected_alt]
-"""
-params: 
-i ; index of the current dictionary key.
-redirected_url; redirected url or list of redirected urls for the case of broken links that are redirected.
-url_dict ; dictionary that includes tag and link information; keys are tags, values are url links.
-url_keys ; keys of the dictionary for reaching dictionary values.
-alternatives; are the alternative links for the tags, used only if they exists.
-### : change the lines according to your configuration when that appears.
-"""
+
 class async_link_checker:
     def __init__(self, length):
         self.length = length
